@@ -19,7 +19,28 @@ The Netflix Titles dataset contains 8,809 entries, each representing a unique mo
 - **duration**: The duration of the title, in minutes for movies and seasons for TV shows.
 - **listed_in**: The genres the title falls under.
 - **description**: A brief summary of the title.
-- 
-  ## Power BI Dashboard
+
+## Power BI Dashboard
 
 A comprehensive Power BI dashboard has been created to visualize the insights from the dataset. The dashboard includes:
+
+
+- A Filled map to show the total movie and TV shows produced by different countries
+- A Donut chart for the total number of category of the title
+- A area chart to show the release year of the title
+- A stacked bar chart for the ratings
+- A stacked bar chart for the genres
+- Added Card for showing 'Total titles', 'Total ratings', 'Total country', 'Total genres', 'Start year', 'Last year', 'Latest added date'
+
+## Analysis Overview
+
+### Content Analysis
+- **Genre Popularity Over Time**: Analyze the trends in genre popularity over different years.
+- **Distribution of Content Production Across Different Countries**: Determine which countries produce the most content and how this distribution has changed over time.
+- **Trends in Movie vs. TV Show Production**: Compare the number of movies and TV shows released each year.
+
+### Market Analysis
+- **Netflix's Content Strategy**: Analyze patterns in `date_added`, `country`, and `listed_in` to understand Netflix's focus areas.
+- **International Markets**: See how much content is produced in different countries and how much Netflix is investing in various regions.
+- **Genre Diversification**: Assess the variety of genres Netflix is investing in.
+- **Investment in Original Content**: Analyze the growth and distribution of Netflix originals.
